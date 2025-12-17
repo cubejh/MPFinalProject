@@ -22,8 +22,8 @@ WHAC_A_MOLE_OUTPUT_TABLE WHAC_A_MOLE_UPDATE(WHAC_A_MOLE_OUTPUT_TABLE table) {
     table.MISS = 0;
     table.NOT_HIT_NOT_MISS = 1;     
 
-    spawn_interval_ticks = 3500; //0.35sec
-    stay_time_ticks = 7500; //0.75sec
+    spawn_interval_ticks = 1600; //0.4sec
+    stay_time_ticks = 3200; //0.8sec
 
     //change 1~9 to 0~8
     int input_idx = -1;
